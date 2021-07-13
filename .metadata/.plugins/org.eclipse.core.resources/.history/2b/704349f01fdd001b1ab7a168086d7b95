@@ -1,0 +1,11 @@
+package heranca2;
+
+public class Animal {
+
+	
+	private String nome;
+	private Float comprimento;
+	private Integer numeroDePatas;
+	
+	
+}

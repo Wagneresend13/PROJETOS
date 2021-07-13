@@ -1,0 +1,8 @@
+package Exercicio01;
+
+public class Professor extends Pessoa{
+	
+	
+	
+
+}

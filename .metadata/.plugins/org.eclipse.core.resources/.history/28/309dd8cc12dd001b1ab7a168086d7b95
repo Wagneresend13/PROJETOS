@@ -1,0 +1,11 @@
+package RevisaoDesafio5_17;
+
+public class ContaReceber extends Conta{
+	
+	
+	
+	public void cancelar() {
+		
+	}
+
+}

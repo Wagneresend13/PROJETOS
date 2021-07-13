@@ -1,0 +1,7 @@
+package DesafioClasse_Math_6_3;
+
+public class MegaSena {
+	
+	public static final int  QUANTIDADE_NUMEROS = 6;
+
+}

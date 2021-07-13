@@ -1,0 +1,18 @@
+package HOTEL;
+
+public class Cliente {
+	
+	private String nome_cliente;
+	private String cpf_cliente;
+	private String email_cliente;
+	
+	
+	Cliente(){
+		
+	}
+	
+	Cliente(String nome_cliente, String cpf_cliente , String email_cliente){
+		
+	}
+
+}

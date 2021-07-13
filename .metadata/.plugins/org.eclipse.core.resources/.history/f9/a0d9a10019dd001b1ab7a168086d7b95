@@ -1,0 +1,16 @@
+package Desafio5_19_SobreCarga;
+
+public class MaquinaCafe {
+
+	private Integer acucarDisponivel;
+	
+	
+	public void facerCafe(Integer qtd_acucar) {
+		
+		
+		
+		
+	}
+	
+	
+}

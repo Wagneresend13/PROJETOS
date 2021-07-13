@@ -1,0 +1,29 @@
+package Seguravel;
+
+public class Imovel implements Seguravel{
+	
+	private double valorMercado;
+	private int areaContruida;
+	
+	
+	
+	Imovel(){
+		
+	}
+	
+	
+	
+	
+	
+
+	@Override
+	public double calcularValorApolice() {
+		return 0;
+	}
+
+	@Override
+	public String obterDescricao() {
+		return null;
+	}
+
+}

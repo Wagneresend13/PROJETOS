@@ -1,0 +1,22 @@
+package Exercicio01;
+
+public class Funcionario extends Pessoa {
+	
+	
+	Double valorSalario;
+	
+	
+	Funcionario(){
+		
+	}
+	
+	Funcionario(){
+		
+	}
+	
+	
+	
+	
+	
+
+}

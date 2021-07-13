@@ -1,0 +1,8 @@
+package Seguravel;
+
+public class Carro implements Seguravel {
+	
+	
+	
+
+}

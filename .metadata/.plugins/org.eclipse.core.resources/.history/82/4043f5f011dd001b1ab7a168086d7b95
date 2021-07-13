@@ -1,0 +1,36 @@
+package RevisaoDesafio5_17;
+
+public class ContaPagar extends Conta{
+	
+	
+	public ContaPagar(Fornecedor fornecedor,String descricao , double valor , String dataVencimento) {
+		
+
+		
+		this.descricao = descricao;
+		this.valor = valor;
+		this.dataVencimento = dataVencimento;
+		this.fornecedor = fornecedor;
+	}
+
+	public void pagar() {
+		
+		if(situacaoConta.equals(situacaoConta.PAGA)){
+			System.out.println(" Não pode pagar uma conta que ja esta paga");
+		}else if(situacaoConta.equals(situacaoConta.CANCELADA)) {
+			System.out.println(" Não pode pagar uma conta que já esta cancelada");
+		}else {
+			
+			System.out.println(" Pagando conta " + this.getDescricao() + " No valor de  "
+					+ this.getValor() + " e vencimento  em  :  " + this.getDataVencimento() 
+					+ " do fornecedor " + this.fornecedor.getNome());
+			this.situacaoConta = situacaoConta.PAGA;
+		}
+		
+	}
+	
+
+	
+	
+	
+}

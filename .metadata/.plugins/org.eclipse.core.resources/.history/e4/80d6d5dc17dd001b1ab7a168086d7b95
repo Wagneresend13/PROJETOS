@@ -1,0 +1,23 @@
+package Sobrecarga;
+
+public class TesteCadastro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CadastroPessoa cadastro = new CadastroPessoa();
+		
+		Pessoa pessoa = new Pessoa("josé " , 32);
+		Pessoa pessoa2 = new Pessoa(" Wagner" , 28);
+		cadastro.cadastrar(pessoa);
+		cadastro.cadastrar(pessoa2);
+		
+		//___________________________________________
+		
+		
+		cadastro.cadastrar("Maria", 22);
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package heranca2;
+
+public class Peixe extends Animal {
+	
+	private String caracteristicas;
+
+	public Peixe() {
+		
+	}
+
+	 Peixe(String nome, Float comprimento, Integer numeroDePatas, String cor, String ambiente,
+			Float velocidadeMedia) {
+		super(nome, comprimento, numeroDePatas, cor, ambiente, velocidadeMedia);
+		
+	}
+	
+	
+
+}

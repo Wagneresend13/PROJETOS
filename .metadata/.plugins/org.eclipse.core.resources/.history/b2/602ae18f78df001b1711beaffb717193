@@ -1,0 +1,32 @@
+package Interface2;
+
+public class Quadrado implements FigurasGeometricas
+{
+	
+	
+	Double lado;
+	
+	
+	Quadrado(){
+		
+	}
+	
+	Quadrado(Double lado){
+		
+		this.lado = lado;
+		
+	}
+
+	@Override
+	public Double calcularFiguraGeometrica() {
+		
+		
+		
+		
+		return null;
+	}
+
+
+
+
+}

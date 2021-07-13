@@ -1,0 +1,12 @@
+package SobrePosicao;
+
+public class TesteSobrePosicao {
+
+	public static void main(String[] args) {
+		
+		ProdutoPerecivel pp = new ProdutoPerecivel();
+		
+		
+		
+	}
+}

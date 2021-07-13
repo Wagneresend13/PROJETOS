@@ -1,0 +1,39 @@
+package Seguravel;
+
+public class Imovel implements Seguravel{
+	
+	private double valorMercado;
+	private int areaContruida;
+	
+	
+	
+	Imovel(){		
+	}
+	
+	Imovel(double valorMercado , int areaConstruida){
+		this.valorMercado = valorMercado;
+		this.areaContruida = areaContruida;		
+	}
+	
+	
+	
+	
+
+	@Override
+	public double calcularValorApolice() {
+		
+		double valorApolice = this.valorMercado * 0.003;
+		valorApolice = valorApolice + (this.areaContruida * 0.5);
+		
+		
+		return valorApolice;
+	}
+
+	@Override
+	public String obterDescricao() {
+		return "Imovel com a área construída de " + areaContruida + " m2 e valor de mercado de " 
+	+ this.valorMercado;
+		
+	}
+
+}

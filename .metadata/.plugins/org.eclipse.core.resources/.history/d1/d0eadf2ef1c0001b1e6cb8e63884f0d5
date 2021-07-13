@@ -1,0 +1,38 @@
+package Metodo3;
+
+public class ContaCorrente {
+	
+	
+	float saldo;
+	
+	void  definirSaldoIniciado(float valor) {
+		
+		saldo = valor;
+		
+		
+	}
+	
+	
+	float depositar (float valor) {
+		
+		saldo = valor + saldo;
+	}
+	
+	float sacar( float valor) {
+
+		
+		if(valor > saldo.valor) {
+			
+			System.out.println("Saldo Insuficiente");
+			
+		}else {
+			saldo.valor = saldo.valor - valor;
+			
+		}
+		
+		return saldo.valor;
+
+	}
+	
+
+}

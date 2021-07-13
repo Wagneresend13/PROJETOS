@@ -1,0 +1,12 @@
+package Desafio;
+
+public class ContaCorrente {
+
+	Double valor_depositado;
+	Double valor_sacado;
+	Double saldo;
+	
+	
+	
+	
+}

@@ -1,0 +1,13 @@
+package heranca2;
+
+public class Principalheranca2 {
+	
+	public static void main(String[] args) {
+		
+		
+		Peixe tubarao = new Tubarap();
+		
+		
+	}
+
+}

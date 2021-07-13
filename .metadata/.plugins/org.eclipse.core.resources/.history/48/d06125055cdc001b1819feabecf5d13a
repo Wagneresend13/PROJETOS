@@ -1,0 +1,21 @@
+package Desafio;
+
+public class principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ContaCorrente conta = new ContaCorrente();
+		conta.setSaldo(20000d);
+	
+		
+		conta.setValor_sacado(200d);
+		
+		conta.getValor_sacado();
+		
+		
+		
+		
+		
+	}
+
+}

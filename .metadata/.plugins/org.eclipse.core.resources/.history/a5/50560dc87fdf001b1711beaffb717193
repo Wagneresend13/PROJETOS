@@ -1,0 +1,10 @@
+package Interface3;
+
+public abstract class Ave  {
+
+	
+	public abstract void voar();
+	
+	
+	
+}

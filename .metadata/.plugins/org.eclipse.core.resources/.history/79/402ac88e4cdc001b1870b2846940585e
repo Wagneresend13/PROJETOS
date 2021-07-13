@@ -1,0 +1,5 @@
+package Seguravel;
+
+public interface Seguravel {
+
+}

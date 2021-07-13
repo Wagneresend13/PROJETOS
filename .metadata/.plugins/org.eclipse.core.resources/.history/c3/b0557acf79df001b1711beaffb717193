@@ -1,0 +1,18 @@
+package Interface2;
+
+public class Triangulo implements FigurasGeometricas{
+
+	Double valor;
+	
+	
+	
+	@Override
+	public Double calcularFiguraGeometrica() {
+		
+		return null;
+	}
+
+	
+	
+	
+}

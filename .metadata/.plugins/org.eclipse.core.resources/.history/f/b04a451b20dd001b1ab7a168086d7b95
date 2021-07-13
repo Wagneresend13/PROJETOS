@@ -1,0 +1,71 @@
+package heranca2;
+
+public class Animal {
+
+	
+	
+	private String nome;
+	private Float comprimento;
+	private Integer numeroDePatas;
+	private String cor;
+	private String ambiente;
+	private Float velocidadeMedia;
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Float getComprimento() {
+		return comprimento;
+	}
+
+	public void setComprimento(Float comprimento) {
+		this.comprimento = comprimento;
+	}
+
+	public Integer getNumeroDePatas() {
+		return numeroDePatas;
+	}
+
+	public void setNumeroDePatas(Integer numeroDePatas) {
+		this.numeroDePatas = numeroDePatas;
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public String getAmbiente() {
+		return ambiente;
+	}
+
+	public void setAmbiente(String ambiente) {
+		this.ambiente = ambiente;
+	}
+
+	public Float getVelocidadeMedia() {
+		return velocidadeMedia;
+	}
+
+	public void setVelocidadeMedia(Float velocidadeMedia) {
+		this.velocidadeMedia = velocidadeMedia;
+	}
+
+
+	
+
+	
+	
+	
+	
+	
+	
+}

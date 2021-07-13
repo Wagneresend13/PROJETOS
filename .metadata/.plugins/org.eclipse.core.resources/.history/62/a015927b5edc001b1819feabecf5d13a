@@ -1,0 +1,37 @@
+package RevisaoDesafioHerancaSobreposicao;
+
+public class ContaPagar extends Conta {
+	
+	Fornecedor fornecedor;
+	SituacaoConta situacaoConta;
+	
+	
+	
+	public ContaPagar(Fornecedor fornecedor,String descricao , double valor , String dataVencimento) {
+	
+		this.getDescricao();
+
+		
+		
+	}
+
+	public void pagar() {
+		
+		if(situacaoConta.equals(situacaoConta.PAGA)){
+			System.out.println(" Não pode pagar uma conta que ja esta paga");
+		}else if(situacaoConta.equals(situacaoConta.CANCELADA)) {
+			System.out.println(" Não pode pagar uma conta que já esta cancelada");
+		}else {
+			
+			System.out.println(" Pagando conta " + this.getDescricao() + " No valor de  "
+					+ this.getValor() + " e vencimento  em  :  " + this.getDataVencimento() 
+					+ " do fornecedor " + this.fornecedor.getNome());
+			this.situacaoConta = situacaoConta.PAGA;
+		}
+		
+	}
+	
+
+	
+	
+}

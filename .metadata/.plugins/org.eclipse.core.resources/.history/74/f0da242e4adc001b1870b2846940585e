@@ -1,0 +1,14 @@
+package Interfaces.TestePrincipal;
+
+import Interfaces.pagamento.Operadora;
+
+public class TesteChekout {
+
+	
+	public static void main(String[] args) {
+		
+		Operadora operadora = null;
+		
+		
+	}
+}

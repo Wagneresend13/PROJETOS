@@ -1,0 +1,20 @@
+package Interface2;
+
+public class Quadrado {
+	
+	
+	Integer lado;
+	
+	
+	Quadrado(){
+		
+	}
+	
+	Quadrado(Integer lado){
+		
+		this.lado = lado;
+		
+	}
+
+
+}

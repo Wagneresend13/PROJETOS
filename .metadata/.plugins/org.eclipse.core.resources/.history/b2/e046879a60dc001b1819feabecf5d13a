@@ -1,0 +1,40 @@
+package RevisaoDesafioHerancaSobreposicao;
+
+public class ContaReceber extends Conta {
+	
+	Cliente cliente;
+	
+	
+	
+	ContaReceber(){
+		
+	}
+	
+	
+	ContaReceber(Cliente cliente , String descricao , Double valor , String dataVencimento ){
+		this.cliente = cliente;
+		this.setDescricao(descricao);
+		this.setValor(valor);
+		this.setDataVencimento(dataVencimento);	
+	}
+
+	
+	
+	
+	
+
+	
+public void cancelar() {
+		
+		if(situacaoConta.equals(situacaoConta.CANCELADA)) {
+			System.out.println(" Não se pode cancelar uma conta já com status cancelado");
+		}else if(situacaoConta.equals(situacaoConta.PAGA)) {
+			System.out.println(" Não se pode cancelar uma conta ja com status PAGA");
+		}else {
+			System.out.println(" Cancelando conta " + this.getDescricao());
+		this.situacaoConta = this.situacaoConta.CANCELADA;
+		
+		}
+
+	}
+}

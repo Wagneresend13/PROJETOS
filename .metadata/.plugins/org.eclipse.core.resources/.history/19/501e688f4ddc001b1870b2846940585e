@@ -1,0 +1,41 @@
+package Seguravel;
+
+public class Carro implements Seguravel {
+	
+	private double valorMercado;
+	private int anoFabricacao;
+	
+	
+	Carro(){
+		
+	}
+	
+	Carro(double valorMercado , int anoFabricacao){
+		this.valorMercado = valorMercado;
+		this.anoFabricacao = anoFabricacao;
+		
+	}
+	
+	
+
+	@Override
+	public double calcularValorApolice() {
+		
+		double valorApolice = this.valorMercado * 0.04;
+		if(this.anoFabricacao < 2000) {
+			
+		}
+		
+		
+		return 0;
+	}
+
+	@Override
+	public String obterDescricao() {
+		return "Carro ano " + this.anoFabricacao + "Com calor no mercado  " + this.valorMercado;
+	}
+	
+	
+	
+
+}

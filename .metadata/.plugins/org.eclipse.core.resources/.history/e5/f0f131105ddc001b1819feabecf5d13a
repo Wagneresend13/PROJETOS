@@ -1,0 +1,9 @@
+package Desafio5_13.copy;
+
+public enum SituacaoConta {
+	
+	PENDENTE,
+	PAGA,
+	CANCELADA;
+
+}

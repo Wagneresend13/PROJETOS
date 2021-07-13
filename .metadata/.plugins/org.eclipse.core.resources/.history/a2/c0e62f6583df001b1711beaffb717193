@@ -1,0 +1,22 @@
+package Desafio_Interface_Polimorfismo5_24;
+
+public class Imovel {
+
+	
+	private double valorMercado;
+	private int areaConstruida;
+	
+	
+	Imovel(){
+	
+	}
+	
+	Imovel(double valorMercado, int areaConstruida){
+		this.valorMercado = valorMercado;
+		this.areaConstruida = areaConstruida;
+		
+		
+	}
+	
+	
+}

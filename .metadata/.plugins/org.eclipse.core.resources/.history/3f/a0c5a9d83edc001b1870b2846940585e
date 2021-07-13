@@ -1,0 +1,7 @@
+package Interfaces.caixa;
+
+import Interfaces.pagamento.*;
+
+public class Compra implements Autorizavel{
+
+}

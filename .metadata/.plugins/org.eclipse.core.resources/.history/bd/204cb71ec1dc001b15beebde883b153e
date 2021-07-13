@@ -1,0 +1,16 @@
+package Exercicio01;
+
+public class Aluno {
+	
+	
+	String nome;
+	String endereco;
+	String telefone;
+	String cpf;
+	String cursos[];
+	String notas[][];
+	
+	
+	
+
+}

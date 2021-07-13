@@ -1,0 +1,21 @@
+package Classe.Math;
+
+public class Classe_Math {
+
+	public static void main(String[] args) {
+		
+		// comprimento de uma circunferência 2 x r x PI 
+		int raio = 4;
+		double comprimento = 2 * raio * Math.PI;
+		System.out.println(" Comprimento : " + comprimento);
+		
+		
+		// Maximo e Minimo 
+		
+		double  [] produtoA = {30.20 , 25.49};
+		
+		
+		
+		
+	}
+}

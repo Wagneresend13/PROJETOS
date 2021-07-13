@@ -1,0 +1,9 @@
+package RevisaoDesafioHerancaSobreposicao;
+
+public class Fornecedor extends Pessoa {
+	
+	
+	
+	
+
+}

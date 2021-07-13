@@ -1,0 +1,29 @@
+package RevisaoDesafio5_17;
+
+public class ContaReceber extends Conta{
+	
+	
+	
+	Cliente cliente;
+	
+	ContaReceber(){
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	public void cancelar() {
+		
+		if(this.getValor() > 50000) {
+			System.out.println(" Conta com valor maior que R$ 50.000");
+		}else {
+			super.cancelar();
+		}
+		
+	}
+
+}

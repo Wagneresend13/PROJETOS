@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;DesafioHerancaSobreposicao5_17&apos; to &apos;Polimorfismo/src/Desafio5_22_PolimorfismoClassesAbastratas&apos;&#x0D;&#x0A;- Original project: &apos;HERANÇA&apos;&#x0D;&#x0A;- Destination element: &apos;Polimorfismo/src/Desafio5_22_PolimorfismoClassesAbastratas&apos;&#x0D;&#x0A;- Original element: &apos;HERANÇA/src/DesafioHerancaSobreposicao5_17&apos;" description="Copy package" destination="=Polimorfismo/src&lt;Desafio5_22_PolimorfismoClassesAbastratas" element1="/src&lt;DesafioHerancaSobreposicao5_17" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1625107623509" version="1.0"/>
+</session>

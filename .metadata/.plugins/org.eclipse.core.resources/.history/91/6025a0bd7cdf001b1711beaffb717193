@@ -1,0 +1,16 @@
+package Interface2;
+
+public class Teste {
+	
+	Quadrado quadrado;
+	
+	Teste(){
+		
+	}
+	
+	Teste(Quadrado quadrado){
+		this.quadrado = quadrado;
+		
+	}
+
+}

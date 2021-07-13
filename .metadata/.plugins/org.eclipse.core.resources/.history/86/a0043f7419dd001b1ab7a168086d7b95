@@ -1,0 +1,29 @@
+package Desafio5_19_SobreCarga;
+
+public class MaquinaCafe {
+
+	private Integer acucarDisponivel;
+	
+	
+	public void facerCafe(Integer qtd_acucar) {
+		
+		if(qtd_acucar > this.acucarDisponivel) {
+			System.out.println(" Não acucar disponível para fazer café");
+		}else {
+			
+			this.acucarDisponivel = this.acucarDisponivel - qtd_acucar;
+			System.out.println(" Fazendo café");
+		}		
+	}
+	
+	public void fazerCafe() {
+		
+		if(this.acucarDisponivel < 10) {
+			
+		}
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,8 @@
+package SobrePosicao;
+
+public class ProdutoPerecivel extends Produto {
+	
+	
+	
+
+}

@@ -1,0 +1,24 @@
+package DesafioClasse_Math_6_3;
+
+public class MegaSena {
+	
+	public static final int NUMERO_MAXIMO = 60;
+	public static final int  QUANTIDADE_NUMEROS = 6;
+
+	
+	private int[] numeroSorteados;
+	
+	
+	public void sortear() {
+		
+		this.numeroSorteados = new int[QUANTIDADE_NUMEROS];
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

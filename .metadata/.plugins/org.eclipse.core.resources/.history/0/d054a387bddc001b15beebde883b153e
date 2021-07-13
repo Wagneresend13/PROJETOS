@@ -1,0 +1,25 @@
+package Exercicio01;
+
+public class ContaCorrente extends Conta {
+
+	
+	
+	
+	public void depositar(Double valor) {
+
+		
+		
+		
+	}
+	
+	
+	public void sacar() {
+		
+	}
+	
+	
+	public void obterSaldo() {
+		
+	}
+	
+}

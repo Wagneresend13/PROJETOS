@@ -1,0 +1,14 @@
+package Interfaces;
+
+public class Cartao{
+	
+	private String nomeTitular;
+	private String numeroCartao;
+	
+	
+	
+	
+	
+	
+
+}

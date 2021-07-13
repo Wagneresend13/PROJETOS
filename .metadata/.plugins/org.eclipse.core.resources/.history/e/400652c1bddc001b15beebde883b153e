@@ -1,0 +1,25 @@
+package Exercicio01;
+
+public class ContaCorrente extends Conta {
+
+	
+	
+	
+	public void depositar(Double valor) {
+		
+		Double valorDepositado = this.getSaldo() + valor;
+	
+	}
+	
+	
+	public void sacar() {
+		Double valorDepositado = this.getSaldo() - valor;
+		
+	}
+	
+	
+	public void obterSaldo() {
+		
+	}
+	
+}

@@ -1,0 +1,39 @@
+package Interface2;
+
+public class Triangulo implements FigurasGeometricas{
+
+	Double valorBase;
+	Double valorAltura;
+	
+	Triangulo(){
+		
+	}
+	
+	Triangulo(Double valorBase){
+		this.valorBase = valorBase;
+		
+		}
+	
+
+	
+	public Double getValorBase() {
+		return valorBase;
+	}
+
+	public void setValorBase(Double valorBase) {
+		this.valorBase = valorBase;
+	}
+
+	public Double getValorAltura() {
+		return valorAltura;
+	}
+
+	public void setValorAltura(Double valorAltura) {
+		this.valorAltura = valorAltura;
+	}
+
+	
+	
+	
+	
+}

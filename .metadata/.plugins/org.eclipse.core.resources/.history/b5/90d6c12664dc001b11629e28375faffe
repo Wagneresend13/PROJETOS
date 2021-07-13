@@ -1,0 +1,58 @@
+package RevisaoDesafioHerancaSobreposicao;
+
+import DesafioHerancaSobreposicao5_17.SituacaoConta;
+
+public class ContaReceber extends Conta {
+	
+	Cliente cliente;
+	
+	
+	
+	
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+
+	ContaReceber(){
+		
+	}
+	
+	
+	ContaReceber(Cliente cliente , String descricao , Double valor , String dataVencimento ){
+		this.cliente = cliente;
+		this.setDescricao(descricao);
+		this.setValor(valor);
+		this.setDataVencimento(dataVencimento);	
+	}
+
+	public void cancelar() {
+		
+		if(this.getValor() > 50000d) {
+			System.out.println(" Essa conta a receber não pode ser cancelada " + this.getDescricao());
+						
+		}else {
+			super.cancelar();
+		}
+	}
+	
+	public void receber() {
+		if(SituacaoConta.PAGA.equals(this.getSituacaoConta())) {
+			System.out.println("Não pode receber uma conta que já esta paga   " + this.getDescricao());
+		}else if(SituacaoConta.CANCELADA.equals(this.getSituacaoConta())) {
+			System.out.println("Não pode receber uma conta que já esta CANCELADA   " + this.getDescricao());
+		}else {
+			System.out.println("Recebendo conta " + this.getDescricao() + " no valor de " + this.getValor() 
+			+ " e vencimento em " + this.getDataVencimento() + "do cliente " + this.getCliente().getNome());
+			
+			this.situacaoConta = SituacaoConta.PAGA;
+		}
+	}
+
+	}
+

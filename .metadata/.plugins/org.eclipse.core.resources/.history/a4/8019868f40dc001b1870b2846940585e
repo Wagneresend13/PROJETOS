@@ -1,0 +1,23 @@
+package Interfaces.caixa;
+
+import Interfaces.pagamento.*;
+import Interfaces.impressao.*;
+
+public class Chekout {
+	
+	private Operadora operadora;
+	private Impressora impressora;
+	
+	public Chekout(Operadora operadora , Impressora impressora){
+		
+		super();
+		this.operadora = operadora;
+		this.impressora = impressora;		
+	}
+	
+	
+	
+	
+	
+	
+}

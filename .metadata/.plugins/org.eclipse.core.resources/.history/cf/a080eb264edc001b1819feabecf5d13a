@@ -1,0 +1,22 @@
+package Seguravel;
+
+public class Imovel implements Seguravel{
+	
+	
+	
+	
+	
+	
+
+	@Override
+	public double calcularValorApolice() {
+		return 0;
+	}
+
+	@Override
+	public String obterDescricao() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,18 @@
+package REVISAODESAFIOHERANCA5_17;
+
+public class ContaReceber extends Conta{
+	
+	Cliente cliente;
+	
+	
+	ContaReceber(){
+		
+	}
+	
+	ContaReceber(Cliente cliente , String descricao , double valor , String dataVencimento){
+		
+	}
+	
+	
+
+}

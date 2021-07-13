@@ -1,0 +1,12 @@
+package Exercicio01;
+
+public class Gato  extends Animal{
+
+	
+	String numero_de_patas;
+
+	
+	
+	
+
+}

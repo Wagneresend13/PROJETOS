@@ -1,0 +1,9 @@
+package SobrePosicao;
+
+public class ProdutoPerecivel extends Produto {
+	
+	
+	protected Date datavalidade;
+	
+
+}

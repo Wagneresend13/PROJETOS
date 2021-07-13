@@ -1,0 +1,30 @@
+package heranca2;
+
+public class Animal {
+
+	
+	private String nome;
+	private Float comprimento;
+	private Integer numeroDePatas;
+	private String cor;
+	private String ambiente;
+	private Float velocidadeMedia;
+	
+	
+	
+	 Animal(String nome, Float comprimento, Integer numeroDePatas, String cor, String ambiente,
+			Float velocidadeMedia) {
+		this.nome = nome;
+		this.comprimento = comprimento;
+		this.numeroDePatas = numeroDePatas;
+		this.cor = cor;
+		this.ambiente = ambiente;
+		this.velocidadeMedia = velocidadeMedia;
+	}
+	
+	
+	
+	
+	
+	
+}

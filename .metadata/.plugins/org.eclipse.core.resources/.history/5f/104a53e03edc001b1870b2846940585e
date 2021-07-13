@@ -1,0 +1,13 @@
+package Interfaces.caixa;
+
+import Interfaces.pagamento.*;
+
+public class Compra implements Autorizavel{
+
+	@Override
+	public double getValorTotal() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,7 @@
+package Desafio_Interface_Polimorfismo;
+
+public interface Seguravel {
+	
+	public double calcularValorApolice();
+
+}

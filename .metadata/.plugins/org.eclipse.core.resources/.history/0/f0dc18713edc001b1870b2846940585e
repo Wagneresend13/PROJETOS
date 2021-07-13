@@ -1,0 +1,10 @@
+package Interfaces.impressao.copy;
+
+public interface Impressora {
+
+	public void imprimir(Imprimivel imprimivel);
+	
+	
+	
+	
+}

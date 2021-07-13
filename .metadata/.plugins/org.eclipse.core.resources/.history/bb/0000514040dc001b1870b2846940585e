@@ -1,0 +1,9 @@
+package Interfaces.caixa;
+
+public class Chekout {
+
+	
+	private Operadora Operadora;
+	private Impressora impressora;
+	
+}

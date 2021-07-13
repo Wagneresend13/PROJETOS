@@ -1,0 +1,17 @@
+package Exercicio01;
+
+public class Gato  extends Animal{
+
+	
+	private Integer numero_de_patas;
+
+	
+	
+	
+	
+	
+	public void emitirSom() {
+		
+	}
+
+}

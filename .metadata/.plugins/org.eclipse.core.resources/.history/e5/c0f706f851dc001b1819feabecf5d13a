@@ -1,0 +1,28 @@
+package Seguravel;
+
+public class PrincipalDesafio {
+
+	public static void main(String[] args) {
+		
+		CorretoraSeguros corretora = new CorretoraSeguros();
+		
+		Carro meucarro = new Carro(45000d , 2020);
+		
+		Imovel minhaCasa = new Imovel();
+		minhaCasa.setAreaContruida(320);
+		minhaCasa.setValorMercado(92000);
+		
+		Barco meuBarco = new Barco();
+		
+	
+		
+		corretora.fazerPropostaSegura(minhaCasa);
+		corretora.fazerPropostaSegura(meucarro);
+		
+		
+		
+		
+
+	}
+
+}

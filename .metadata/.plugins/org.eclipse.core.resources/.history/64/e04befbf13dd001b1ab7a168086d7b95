@@ -1,0 +1,36 @@
+package RevisaoDesafio5_17;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Fornecedor imobiliaria = new Fornecedor();
+		imobiliaria.setNome("Casa & Cia negócios imobiliários");
+		
+		Fornecedor mercado = new Fornecedor();
+		mercado.setNome("Mercado do João ");
+		
+		Cliente atacadista = new Cliente();
+		atacadista.setNome("Triângulo quadrado atacadista");
+		
+		Cliente telecom = new Cliente();
+		telecom.setNome("Fonenet Telecomunicações");
+
+		ContaPagar contaPagar1 = new ContaPagar();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

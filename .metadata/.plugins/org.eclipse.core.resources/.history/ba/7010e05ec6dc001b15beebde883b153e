@@ -1,0 +1,13 @@
+package Exercicio01;
+
+public class Aluno  extends Pessoa{
+
+	
+	String cursos;
+	private double [] notas;
+	
+	
+	
+	
+	
+}

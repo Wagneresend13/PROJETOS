@@ -1,0 +1,11 @@
+package Interfaces.impressao.copy;
+
+public interface Imprimivel {
+	
+	
+	public String  getCabecaPagina();
+	public String getCorpoPagina();
+	
+	
+
+}

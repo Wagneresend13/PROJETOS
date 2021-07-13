@@ -1,0 +1,14 @@
+package REVISAODESAFIOHERANCA5_17;
+
+public class ContaReceber extends Conta{
+	
+	Cliente cliente;
+	
+	
+	ContaReceber(){
+		
+	}
+	
+	
+
+}

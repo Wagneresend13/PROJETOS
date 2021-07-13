@@ -1,0 +1,8 @@
+package Interface3;
+
+public abstract class AnimalEstimacao {
+
+	
+	public abstract void Brincar();
+	public abstract void LevarPassear();
+}

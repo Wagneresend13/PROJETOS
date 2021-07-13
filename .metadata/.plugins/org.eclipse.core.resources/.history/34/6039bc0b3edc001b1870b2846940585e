@@ -1,0 +1,5 @@
+package Interfaces.pagamento;
+
+public class Cartao extends Cartao {
+
+}

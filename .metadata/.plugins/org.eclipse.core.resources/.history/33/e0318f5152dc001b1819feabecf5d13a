@@ -1,0 +1,49 @@
+package Seguravel;
+
+public class Barco implements Seguravel {
+	
+	private Double valorTotal;
+	private String marcaBarco;
+	
+	
+	Barco(Double valorTotal , String marcaBarco){
+		this.valorTotal = valorTotal;
+		this.marcaBarco = marcaBarco;
+		
+	}
+	
+	
+	
+
+	public Double getValorTotal() {
+		return valorTotal;
+	}
+
+	public void setValorTotal(Double valorTotal) {
+		this.valorTotal = valorTotal;
+	}
+
+	public String getMarcaBarco() {
+		return marcaBarco;
+	}
+
+	public void setMarcaBarco(String marcaBarco) {
+		this.marcaBarco = marcaBarco;
+	}
+
+	@Override
+	public double calcularValorApolice() {
+		double valorApolice = this.valorTotal * 0.003;
+		valorApolice = valorApolice + (this.valorTotal  * 0.5);
+		
+		
+		return valorApolice;
+	}
+
+	@Override
+	public String obterDescricao() {
+		// TODO Auto-generated method stub
+		return "Barco da Marca " + this.marcaBarco + " com o valor no mercado =  " + this.valorTotal;
+	}
+
+}

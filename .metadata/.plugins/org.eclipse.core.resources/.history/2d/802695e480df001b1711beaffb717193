@@ -1,0 +1,9 @@
+package Interface3;
+
+public abstract class AnimalDosmesticado {
+	
+	
+	public abstract levarVeterinario();
+	public abstract alimentar();
+
+}

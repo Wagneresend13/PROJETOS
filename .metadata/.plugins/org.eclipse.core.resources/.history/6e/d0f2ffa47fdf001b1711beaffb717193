@@ -1,0 +1,10 @@
+package Interface3;
+
+public class Cachorro {
+
+	
+	private int tamanho;
+	private String raca;
+	
+	
+}

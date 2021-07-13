@@ -1,0 +1,14 @@
+package Exercicio01;
+
+public class Professor {
+	
+	
+	String nome;
+	String endereco;
+	String telefone;
+	String cpf;
+	String departamento;
+	String nomeCurso;
+	Double salario;
+
+}

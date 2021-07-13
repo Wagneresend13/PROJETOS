@@ -1,0 +1,30 @@
+package Metodo3;
+
+public class ContaCorrente {
+	
+	
+	Saldo saldo;
+	
+	float definirSaldoInicial() {
+		
+		
+	}
+	
+	float depositar (float valor) {
+		
+		saldo.valor = valor;
+		
+		return saldo.valor;
+		
+	}
+	
+	float sacar( float valor) {
+		
+		saldo.valor = saldo.valor - valor;
+		
+		return saldo.valor;
+
+	}
+	
+
+}

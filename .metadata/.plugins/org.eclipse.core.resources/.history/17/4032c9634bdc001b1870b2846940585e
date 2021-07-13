@@ -1,0 +1,11 @@
+package Interfaces.impressao;
+
+public class ImpressoraEpson implements Impressora {
+
+	@Override
+	public void imprimir(Imprimivel imprimivel) {
+		
+
+	}
+
+}

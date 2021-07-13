@@ -1,0 +1,13 @@
+package Interface2;
+
+public class Quadrado {
+	
+	
+	Integer lado;
+	
+	
+	Quadrado(){
+		
+	}
+
+}

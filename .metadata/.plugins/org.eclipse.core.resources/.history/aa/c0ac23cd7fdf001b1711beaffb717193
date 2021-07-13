@@ -1,0 +1,8 @@
+package Interface3;
+
+public abstract class Mamifero {
+	
+	public abstract void amamentar();
+	
+
+}

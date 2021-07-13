@@ -1,0 +1,19 @@
+package Seguravel;
+
+public class CorretoraSeguros {
+
+	
+	public void fazerPropostaSegura() {
+		System.out.println("-------------------------------");
+		System.out.println("Corretora de Seguros - Proposta");
+		System.out.println("-------------------------------");
+		System.out.println(
+		System.out.println("Valor da apólice: " + objetoSeguravel.calcularValorApolice());
+		System.out.println("-------------------------------\n");
+		
+		
+		
+	}
+	
+	
+}

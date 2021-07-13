@@ -1,0 +1,8 @@
+package DesafioClasse_Math_6_3;
+
+public class MegaSena {
+	
+	public statuc final int NUMERO_MAXIMO = 60;
+	public static final int  QUANTIDADE_NUMEROS = 6;
+
+}

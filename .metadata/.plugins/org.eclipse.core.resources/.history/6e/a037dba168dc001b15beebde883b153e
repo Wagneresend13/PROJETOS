@@ -1,0 +1,9 @@
+package REVISAODESAFIOHERANCA5_17;
+
+public class Fornecedor extends Pessoa {
+	
+	
+	
+	
+
+}

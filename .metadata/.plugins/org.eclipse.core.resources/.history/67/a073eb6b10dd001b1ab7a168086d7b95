@@ -1,0 +1,11 @@
+package SobrePosicao;
+
+import java.util.Date;
+
+public class ProdutoPerecivel extends Produto {
+	
+	
+	protected Date datavalidade;
+	
+
+}

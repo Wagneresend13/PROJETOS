@@ -1,0 +1,20 @@
+package HOTEL;
+
+import java.util.Scanner;
+
+public class PrincipalHotel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner entrada = new Scanner(System.in);
+
+		Cliente cliente = new Cliente();
+		
+		System.out.println(" Digite o Nome : ");
+		
+		
+		
+		
+	}
+
+}

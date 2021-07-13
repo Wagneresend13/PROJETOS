@@ -1,0 +1,27 @@
+package Metodo3;
+
+public class PrincipalConta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ContaCorrente novaConta = new ContaCorrente();
+		
+		
+		novaConta.definirSaldoIniciado(1000);
+		System.out.println("O valor do saldo é " + novaConta.saldo);
+		
+		novaConta.sacar(500);
+		novaConta.depositar(50);
+		
+		System.out.println("O valor do Saldo é " + novaConta.saldo);
+		
+		
+		novaConta.sacar(600);
+		
+		System.out.println("O valor do saldo é " + novaConta.saldo);
+
+		
+	}
+
+}

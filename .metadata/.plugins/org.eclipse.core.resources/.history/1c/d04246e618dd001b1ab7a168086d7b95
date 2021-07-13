@@ -1,0 +1,8 @@
+package Desafio5_19_SobreCarga;
+
+public class MaquinaCafe {
+
+	private Integer acucarDisponivel;
+	
+	
+}

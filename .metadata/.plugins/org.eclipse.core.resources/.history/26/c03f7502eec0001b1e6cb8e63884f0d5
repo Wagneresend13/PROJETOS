@@ -1,0 +1,9 @@
+package Metodo3;
+
+public class Saldo {
+	
+	double definirSaldoInicial;
+	double depositar;
+	double sacar;
+
+}

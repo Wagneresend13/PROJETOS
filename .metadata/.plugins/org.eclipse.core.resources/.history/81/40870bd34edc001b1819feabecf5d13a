@@ -1,0 +1,11 @@
+package Seguravel;
+
+public class CorretoraSeguros {
+
+	
+	public void fazerPropostaSegura() {
+		
+	}
+	
+	
+}

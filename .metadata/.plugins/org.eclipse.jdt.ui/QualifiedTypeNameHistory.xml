@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Metodos.Notas"/>
+    <fullyQualifiedTypeName name="Exercicio314.Cachorro"/>
+    <fullyQualifiedTypeName name="TesteUtilizandoMetodos.Metodos"/>
+    <fullyQualifiedTypeName name="java.util.Timer"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="Exercicio19_1.Contato"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="Desafio5_7.ContaPagar"/>
+    <fullyQualifiedTypeName name="PolimorfimoExercicio.Cachorro"/>
+    <fullyQualifiedTypeName name="heranca3.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="Interfaces.impressao.Imprimivel"/>
+    <fullyQualifiedTypeName name="Interfaces.pagamento.Autorizavel"/>
+    <fullyQualifiedTypeName name="Interfaces.pagamento.Operadora"/>
+    <fullyQualifiedTypeName name="Interfaces.impressao.Impressora"/>
+    <fullyQualifiedTypeName name="Interfaces.caixa.Compra"/>
+    <fullyQualifiedTypeName name="Interfaces.caixa.Chekout"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.tools.SysPropsDumper"/>
+    <fullyQualifiedTypeName name="Seguravel.CorretoraSeguros"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Interface3.AnimalEstimacao"/>
+    <fullyQualifiedTypeName name="Interface3.AnimalDosmesticado"/>
+</qualifiedTypeNameHistroy>

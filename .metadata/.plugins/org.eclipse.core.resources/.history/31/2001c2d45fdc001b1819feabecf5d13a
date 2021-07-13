@@ -1,0 +1,25 @@
+package RevisaoDesafioHerancaSobreposicao;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Fornecedor imobiliaria = new Fornecedor();
+		imobiliaria.setNome("Casa & Cia negócios imobiliárioa");
+		Fornecedor mercado = new Fornecedor();
+		mercado.setNome("mercado do joário");
+		
+		Cliente atacadista = new Cliente();
+		atacadista.setNome("Triângulo Quadrado Atacadista");
+		
+		Cliente telecom = new Cliente();
+		telecom.setNome("Fone net telecomunicações");
+		
+		ContaPagar contapagar1 = new ContaPagar();
+		
+		
+		
+	}
+
+}

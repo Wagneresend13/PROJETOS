@@ -1,0 +1,24 @@
+package Interfaces.TestePrincipal;
+
+import Interfaces.caixa.Compra;
+import Interfaces.impressao.Impressora;
+import Interfaces.pagamento.Operadora;
+import Interfaces.pagamento.*;
+
+public class TesteChekout {
+
+	
+	public static void main(String[] args) {
+		
+		Operadora operadora = null;
+		Impressora impressora = null;
+		
+		Cartao cartao = new Cartao();
+		cartao.setNomeTitular("João M Couves");
+		cartao.setNumeroCartao("456");
+		
+		Compra compra  = new Compra();
+		
+		
+	}
+}

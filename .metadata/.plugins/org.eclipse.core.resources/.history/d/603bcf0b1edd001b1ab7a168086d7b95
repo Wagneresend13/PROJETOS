@@ -1,0 +1,10 @@
+package heranca3;
+
+public class Gerente {
+
+	private String nome;
+	private String cpf;
+	private double salario;
+	
+	
+}

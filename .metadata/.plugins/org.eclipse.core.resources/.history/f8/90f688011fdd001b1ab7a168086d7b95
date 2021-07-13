@@ -1,0 +1,8 @@
+package heranca3;
+
+public class TestarHeranca {
+
+	public static void main(String[] args) {
+		
+	}
+}

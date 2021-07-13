@@ -1,0 +1,39 @@
+package Desafio_Interface_Polimorfismo;
+
+public class Carro implements Seguravel{
+	
+	private double valorMercado;
+	private int anoFabricacao;
+	
+	Carro(){
+		
+	}
+	
+	Carro(double valorMercado , int anoFabricacao){
+		this.valorMercado = valorMercado ;
+		this.anoFabricacao = anoFabricacao;
+		
+	}
+	
+	
+
+	@Override
+	public double calcularValorApolice() {
+		
+		double valorMercado;
+		valorMercado = this.valorMercado * 0.4;
+		
+		
+		return 0;
+	}
+
+	@Override
+	public String obterDescricao() {
+		
+		String resultado = " Carro" + this.anoFabricacao + " com o valor do mercado" + this.valorMercado;
+		
+		
+		return resultado;
+	}
+
+}

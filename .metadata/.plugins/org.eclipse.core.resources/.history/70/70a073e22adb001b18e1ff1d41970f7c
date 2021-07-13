@@ -1,0 +1,31 @@
+package HOTEL;
+
+import java.util.Scanner;
+
+public class PrincipalHotel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner entrada = new Scanner(System.in);
+
+		Cliente cliente = new Cliente();
+		
+		System.out.println(" Digite o Nome : ");
+		String nome = entrada.next();
+		cliente.setNome_cliente(nome);
+		
+		System.out.println("Digite o Cpf : ");
+		String cpf = entrada.next();
+		cliente.setCpf_cliente(cpf);
+		
+		System.out.println(" Digite o email :" );
+		String email = entrada.next();
+		cliente.setEmail_cliente(email);
+		
+		
+		
+		
+		
+	}
+
+}

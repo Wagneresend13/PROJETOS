@@ -1,0 +1,39 @@
+package Desafio;
+
+public class ContaCorrente {
+
+	Double valor_depositado;
+	Double valor_sacado;
+	Double saldo;
+	
+	
+	public Double getValor_depositado() {
+		return valor_depositado;
+	}
+	public void setValor_depositado(Double valor_depositado) {
+		this.valor_depositado = valor_depositado;
+	}
+	public Double getValor_sacado() {
+		return valor_sacado;
+	}
+	public void setValor_sacado(Double valor_sacado) {
+		this.valor_sacado = valor_sacado;
+	}
+	public Double getSaldo() {
+		return saldo;
+	}
+	public void setSaldo(Double saldo) {
+		this.saldo = saldo;
+	}
+
+	public void valorSacado () {
+		this.saldo = this.valor_sacado - this.saldo;
+		
+		
+		
+		
+	}
+	
+	
+	
+}

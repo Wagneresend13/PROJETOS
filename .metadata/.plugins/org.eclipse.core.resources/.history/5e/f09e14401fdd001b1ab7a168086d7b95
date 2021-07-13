@@ -1,0 +1,40 @@
+package heranca3;
+
+public class Gerente extends Funcionario{
+
+	
+	private Integer senha;
+	
+	
+	Gerente(){
+		
+	}
+
+
+	public Gerente(String nome, String cpf, double salario) {
+		super();
+	}
+	
+	
+	public boolean autentica(Integer testarSenha) {
+		
+		if(testarSenha.equals(senha)) {
+			System.out.println(" Acesso concedido");
+			return true;
+		}else {
+			System.out.println(" Acesso nega, senha incorreta");
+			return false;
+		}
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

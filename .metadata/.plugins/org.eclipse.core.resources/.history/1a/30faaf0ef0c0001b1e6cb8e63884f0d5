@@ -1,0 +1,15 @@
+package Metodo3;
+
+public class PrincipalConta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ContaCorrente novaConta = new ContaCorrente();
+		
+		novaConta.definirSaldoIniciado();
+		
+		
+	}
+
+}
